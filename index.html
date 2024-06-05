@@ -24,6 +24,7 @@
             margin: 0;
             font-family: 'MyCustomFont';
             text-align: center;
+            padding-top: 20px;
         }
         #logo {
             max-width: 100%;
@@ -81,6 +82,11 @@
             height: 50px;
             margin: 0 10px;
             cursor: pointer;
+        }
+        @media (min-width: 768px) {
+            #logo {
+                max-width: 60%; /* Riduce la larghezza massima del logo su schermi più grandi */
+            }
         }
     </style>
 </head>
